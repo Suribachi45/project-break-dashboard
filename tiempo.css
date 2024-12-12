@@ -1,0 +1,34 @@
+
+.tiempo-container {
+    position: absolute;
+    right: 20px; /* Ajusta el valor para dejar un margen */
+    bottom: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+#weather-app {
+    font-family:monospace;
+    right: 20px; /* Ajusta el valor para dejar un margen */
+    bottom: 20px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgba(203, 203, 230, 0.5);
+    border:2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto; /* Agrega esta línea */
+    max-height: 400px; /* Ajusta la altura máxima según tus necesidades */ 
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+.card {
+    font-family:monospace;
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}

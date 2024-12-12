@@ -1,0 +1,29 @@
+body{
+    font-family:fantasy;
+    margin: 0;
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    overflow: hidden;
+   
+
+}
+
+#reloj{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    margin-top: -140px;
+    width: 125px;
+    height: 160px;
+    border: 2px solid black; 
+    color:black; 
+    background-color: rgba(203, 203, 230, 0.5);
+    padding-left: 30px;
+    padding-right:10px ;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 15px;}

@@ -1,0 +1,14 @@
+.input-container {
+    font-family:monospace;
+    position: absolute;
+    left: 20px; /* Ajusta el valor para dejar un margen */
+    bottom: 20px;
+    background-color:rgba(203, 203, 230, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    border: 2px solid black;
+};
+
+
